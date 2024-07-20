@@ -2,6 +2,7 @@ import { useState } from "react";
 import { FaQuoteLeft, FaTwitter } from "react-icons/fa";
 import "./App.css";
 import quotes from "./assets/quotes.json";
+import Footer from "./components/Footer";
 
 interface Quote {
   quote: string;
@@ -72,6 +73,7 @@ function App() {
           </button>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
